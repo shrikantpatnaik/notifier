@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a3a1addc-c5a8-4ac6-8bf0-5336eb4626cb" name="Notifier">
+        <fileTransfer rootFolder="/home/pi" accessType="SFTP" host="notifier.local" port="22" sshConfigId="a5cf33a2-7240-4740-8fc1-8b40ac29e8e9" sshConfig="pi@notifier.local:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
